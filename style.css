@@ -1,0 +1,56 @@
+.custom-divider {
+  position: absolute;
+  height: 100%;
+  width: 3px;
+  left: 20%;
+  background-color: red; /* Adjust the color as needed */
+  z-index: 1;
+}
+.video-js .vjs-play-progress.vjs-slider-bar {
+  z-index: 2; /* To hide our divider when current it already watched */
+}
+
+.custom-tooltip {
+  position: absolute;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Adjust the background color as needed */
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  bottom: 50px;
+  display: none;
+  z-index: 10000;
+  font-size: 0.8em; /* Adjust based your need */
+}
+
+.accordion {
+  max-width: auto;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.segment {
+  border: 1px solid #ccc;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+
+.segment-header {
+  padding: 10px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.segment-content {
+  padding: 10px;
+}
+
+.segment-link {
+  display: inline-block;
+  margin-block: 10px;
+}
